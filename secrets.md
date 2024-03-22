@@ -9,11 +9,13 @@ Master Password:
 ```
 bulbdoor@Hen20
 ```
+<br>
 ### NordPass2
 Password:
 ```
 insignia-conglobed-indirubin
 ```
+<br>
 Master Password:
 ```
 tackles44loopings@bego
