@@ -1,11 +1,15 @@
 # MY PASSWD
 ### NordPass
-Password: ##
-        classmousecord@3663<br>
-Master Password: ##
-        bulbdoor@Hen20
-
-### NordPass2
+<span style="color: blue;">Password.</span>
+```
+classmousecord@3663
+```
+<br>
+<span style="color: blue;">Master Password.</span>
+```
+bulbdoor@Hen20
+```
+#### NordPass2
 Password:
 ##
         insignia-conglobed-indirubin<br>
