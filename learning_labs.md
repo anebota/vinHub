@@ -4,6 +4,8 @@ DevOps is a practice that enables a single team to handle the whole application 
 ![Architecture Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20230412162703/DevOps-lifecycle.webp)
 ### DevOps Lifecycle: [Click to Open DevOps LifeCycle](https://www.geeksforgeeks.org/devops-lifecycle/) 
 
+##
+
 ## 3tier Architecture Overview:
 ![Architecture Diagram](https://static.us-east-1.prod.workshops.aws/public/deeaf148-5f5f-4eac-ae36-a029faa8e4ba/static/introduction/3TierArch.png)
 
@@ -11,4 +13,4 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 
 ### AWS 3Tier Web Architecture: [Click to open AWS 3Tier Web Architecture](https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-US)
 
-
+##
