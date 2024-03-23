@@ -31,4 +31,14 @@ Password:
 ```
 ava@20K20
 ```
+
+### Programatic Access:
+Access Key:
+```
+AKIA3L7SISFMW2CB4MZG
+```
+Secret Key: 
+```
+FyBhdLp4l4fjaRmFLWEzDtOIQg8wyrCRgoYmYTiL
+```
 ##
