@@ -16,6 +16,6 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 ##
 
 ### IP Address Guide: [Click to open IP Address Guide/CIDR](https://www.ipaddressguide.com/cidr)
-![IP Address Guide/CIDR](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.blackdown.org%2Fwhat-is-ip-address%2F&psig=AOvVaw198fYbm_q8NAe7iqDgQcX1&ust=1711649994207000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIijuqCHlYUDFQAAAAAdAAAAABAE)
+![IP Address Guide/CIDR](https://www.blackdown.org/wp-content/uploads/2024/03/Complete-Guide-to-IP-Addresses.jpgE)
 
 ##
