@@ -13,6 +13,7 @@ DevOps is a practice that enables a single team to handle the whole application 
 In this architecture, a public-facing Application Load Balancer forwards client traffic to our web tier EC2 instances. The web tier is running Nginx webservers that are configured to serve a React.js website and redirects our API calls to the application tier’s internal facing load balancer. The internal facing load balancer then forwards that traffic to the application tier, which is written in Node.js. The application tier manipulates data in an Aurora MySQL multi-AZ database and returns it to our web tier. Load balancing, health checks and autoscaling groups are created at each layer to maintain the availability of this architecture.
 ##
 
-### IP Address Guide: [Click to open IP Address Guide/CIDR](https://www.ipaddressguide.com/cidr)
-![IP Address Guide/CIDR](https://www.blackdown.org/wp-content/uploads/2024/03/Complete-Guide-to-IP-Addresses.jpg)
+### IP Address Guide: [Click to open IP Address Guide/CIDR](https://www.ipaddressguide.com/)
+![IP Address Guide](https://1.bp.blogspot.com/-jyDh9P0--x0/XjugA84ADRI/AAAAAAAACAY/wamTa1DwVugtN3Cc6rlB7SC5J6kElsvDwCLcBGAsYHQ/s1600/screenshot1.PNG)
+To get to where you want to calculate CIDR Blocks, go to IPV4 Tools, then select IPV4 CIDR
 ##
