@@ -15,5 +15,7 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 
 ### IP Address Guide: [Click to open IP Address Guide/CIDR](https://www.ipaddressguide.com/)
 ![IP Address Guide](https://1.bp.blogspot.com/-jyDh9P0--x0/XjugA84ADRI/AAAAAAAACAY/wamTa1DwVugtN3Cc6rlB7SC5J6kElsvDwCLcBGAsYHQ/s1600/screenshot1.PNG)
+
+### Calculate CIDR Blocks:
 To get to where you want to calculate CIDR Blocks, go to IPV4 Tools, then select IPV4 CIDR
 ##
