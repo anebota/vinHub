@@ -36,8 +36,8 @@ Run the script:
 ./server_update.sh
 ```
 ## 
-## 
-##
+<br>
+<br>
 
 ### Change Hostname:
 Become root:
