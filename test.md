@@ -10,3 +10,6 @@ Older releases are available and the Git source repository is on GitHub. Latest 
 ### Script:
 Older releases are available and the Git source repository is on GitHub. Latest source Release. 2.44.0 Release Notes (2024-02-23) Download for Linux. GUI ...
 ##
+**this is bold**
+_this is italics_
+__This is bold__
