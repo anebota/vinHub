@@ -13,3 +13,10 @@ Older releases are available and the Git source repository is on GitHub. Latest 
 **this is bold** <br>
 _this is italics_ <br>
 __This is bold__ <br>
+##
+
+Server Update: 
+```
+apt update -y
+```
+## 
