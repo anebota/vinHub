@@ -60,3 +60,9 @@ Remove user from a group:
 ```
 sudo gpasswd --delete user group
 ```
+##
+To create password for users: 
+```
+sudo passwd username
+```
+##
