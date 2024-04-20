@@ -15,7 +15,7 @@ sudo docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/
 
 ### Configure it on Browser: 
 
-To open on browser:
+To open on browser: <br>
 If running locally on your PC:
 ```
 localhost:8081
@@ -47,6 +47,7 @@ Install Nexus Plugins:
 - Dashboard ==> Manage Jenkins ==> Plugins 
 - Available Plugins ==> Search 'Nexus Artifact Uploader'
 - Select and install 
+
 
 ##
 Download the Docker image for Sonatype Nexus:

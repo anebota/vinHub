@@ -24,15 +24,15 @@ chmod 666 /var/run/docker.sock
 ```
 Enable Docker:
 ```
-sudo systemctl enable docker 
+systemctl enable docker 
 ```
 Start Docker:
 ```
-sudo systemctl start docker
+systemctl start docker
 ```
 Check Docker Status:
 ```
-sudo systemctl status docker
+systemctl status docker
 ```
 ##
 Optional: <br>

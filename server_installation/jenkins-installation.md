@@ -1,6 +1,6 @@
 ### Install Jenkins on a server:
 Server Type: Ubuntu <br>
-Check out [Here](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu 
+Check out [Here](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 ) for guidance:  
  
 Become root:
@@ -130,22 +130,21 @@ cat filepath
 ##
 
 ### Troubleshooting: 
-- If jenkins fails to integrate with git under 'Source Code Management' <br>
-  Do the following to resolve this: 
-- On your terminal, edit the Jenkins DNS configuration file using the command:
+If jenkins fails to integrate with git under 'Source Code Management' <br>
+Do the following to resolve this: <br> 
+On your terminal, edit the Jenkins DNS configuration file using the command:
 ```
 sudo nano /etc/resolv.conf 
 ```
-
-- Add the following line to use Google DNS:
+Add the following line to use Google DNS:
 ```
 nameserver 8.8.8.8
 ```
-- Save the file and restart Jenkins service:
+Save the file and restart Jenkins service:
 ```
 sudo systemctl restart jenkins
 ```
-- Go to Jenkins and try the integration again 
+Go to Jenkins and try the integration again 
 ##
 
 ### How to change Jenkins default portNumber: 
@@ -162,21 +161,21 @@ Or use the direct path:
 sudo nano /etc/default/jenkins 
 ```
   
-- Look for the line that specifies the HTTP_PORT variable. <br> 
-  For example, it may look like HTTP_PORT=8080.
+Look for the line that specifies the HTTP_PORT variable. <br> 
+For example, it may look like HTTP_PORT=8080. <br>
 
-- Change the port number to the desired value. <br> 
-  Make sure it is a valid and available port.
+Change the port number to the desired value. <br> 
+Make sure it is a valid and available port. <br>
 
-- Add a new line below HTTP_PORT=-1 to set your desired port using <br> 
-  the --httpPort option. For example:
+Add a new line below HTTP_PORT=-1 to set your desired port using <br> 
+the `--httpPort` option. For example:
 ```
 HTTP_PORT=-1
 JENKINS_ARGS="--httpPort=8081"
 ```
 
-- Save the changes to the configuration file and exit the text editor.
-- Restart the Jenkins service to apply the changes. 
+Save the changes to the configuration file and exit the text editor. <br>
+Restart the Jenkins service to apply the changes. 
 ```
 sudo systemctl restart jenkins
 ```
@@ -186,13 +185,15 @@ Edit the 'jenkins.service' file:
 sudo nano /lib/systemd/system/jenkins.service
 ```
 
-- Change the port on the file <br>
-  [Service] <br>
-  Environment="JENKINS_PORT=8081"
+Change the port on the file <br>
+  `[Service]` <br>
+  `Environment="JENKINS_PORT=8081"`
 
 Reload the daemon and restart jenkins service:
 ```
 sudo systemctl daemon-reload
+```
+```
 sudo service jenkins restart
 ```
 ##

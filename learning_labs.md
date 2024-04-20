@@ -19,9 +19,14 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 ### Calculate CIDR Blocks:
 To get to where you want to calculate CIDR Blocks, go to IPV4 Tools, then select IPV4 CIDR
 ##
+To learn more about CIDR Block ranges, see [AN INTERACTIVE IP ADDRESS AND CIDR RANGE VISUALIZER](https://cidr.xyz/) 
+##
+
 ### Bootstrap Template:
 To get website templates for free <br>
 ```
 https://bootstrapmade.com/ 
 ```
 ## 
+To get AWS VPC Private CIDR Block link, see [CIDR Blocks from the Private IPv4 Address Ranges](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html)
+##
