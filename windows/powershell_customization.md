@@ -13,9 +13,9 @@ So, create it:
 New-Item -Type File -Path $profile -Force
 ```
 ##
-Now, cd:
+Now, cd to the following directory:
 ```
-C:\Users\vintech\Documents\PowerShell
+cd C:\Users\vintech\Documents\PowerShell
 ```
 Make sure to replace `vintech` with your own username <br>
 When on the path, run:
@@ -43,6 +43,8 @@ function prompt {
     return " > "
 }
 ```
+##
+
 ```
 function prompt {
     Write-Host "😊" -NoNewline -ForegroundColor Yellow
@@ -50,12 +52,17 @@ function prompt {
     return " > "
 }
 ```
+##
+
+```
 function prompt {
     Write-Host "vin" -NoNewline -ForegroundColor White
     Write-Host (" " + $pwd) -NoNewline -ForegroundColor Green
     return "$ " 
 }
 ```
+##
+
 ```
 function prompt {
     Write-Host "vin" -NoNewline -ForegroundColor White
@@ -63,3 +70,4 @@ function prompt {
     return ": " 
 }
 ```
+##
