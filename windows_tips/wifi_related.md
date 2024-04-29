@@ -1,6 +1,5 @@
 ##
-### Internet: (Configuration & Speed)
-#### Make WiFi Faster: <br>
+### Make WiFi Faster: <br>
 Optimize Internet Connections: <br>
 Method 1:
 - Press `Windows` + `X` 
@@ -28,7 +27,7 @@ Method 2:
   - Transmit Power: `Highest`
 
 ##
-#### Get WiFi Passwords:
+### Get WiFi Passwords:
 Follow these instructions to get any WiFi passwords:
 - Open `cmd` or any `Windows Terminal`
 - Type the following:
@@ -43,7 +42,7 @@ netsh wlan show profile [WiFi Name] key=clear
 - Check `Key Content` under `Security Settings` to see the passwords
 
 ##
-#### Fix WiFi Problems 
+### Fix WiFi Problems 
 If your PC [Laptop] keeps disconnecting from your WiFi, here is how to fix it: <br>  
 Method 01: 
 - Press `Windows Key` + `R` 
@@ -56,7 +55,8 @@ ncpa.cpl
 - Unchecked all the boxes then click `OK` 
 - Run `cmd` as administrator 
 - Type the following commands and ENTER respectfully: 
-```netsh winsock reset 
+```
+netsh winsock reset 
 ```
 ```
 netsh int ip reset c:\resetlog.txt
@@ -72,6 +72,3 @@ Method 02:
 - Then click `OK` 
 
 ##
-### Performance: 
-
-
