@@ -2,9 +2,8 @@
 ### Upgrade Windows Software 
 - Open `cmd` as `administrator` 
 - Type the following commands:
-```
-winget upgrade # To list software available for upgrade
-```
+```winget upgrade``` To list software available for upgrade
+
 To upgrade the software 
                $ winget upgrade --all --include-unknown      
 
