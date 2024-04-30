@@ -10,7 +10,7 @@ MRT
 ##
 
 ### How to Secure Your Data Online:
-IPv$:
+IPv4:
 - Go to `Settings` then `Network and Internet`
 - On `WiFi` click the `arrow` at the end  
 - Click `Hardware properties` 
@@ -21,3 +21,5 @@ IPv$:
 - `DNS over HTTPS` chose `On (automatic template)`
 - `https://dns.google/dns-query`
 ##
+
+ 
