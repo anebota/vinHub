@@ -50,7 +50,11 @@ prefetch
 ##
 ### Maximize Processor Usage:  
 - Press `Window`s + `R` 
-- Type msconfig then hit `ENTER` 
+- Type:
+```
+msconfig
+```
+- Then hit `ENTER` 
 - Under `System Configuration`, select `Boot` 
 - Then click `Advance Option` 
 - Check `Number of Processors` and choose the `maximum` 
@@ -109,5 +113,4 @@ Her is the `Value Data Guide`
 |4GB     |512    |
 |8GB     |1024   |
 |16GB    |2048   | 
-##
 ##

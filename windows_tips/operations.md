@@ -43,7 +43,7 @@ powercfg /batteryreport
 ##
 
 ### Shutdown Windows Properly: 
-- Open `Control Panel` 
+- Open `Control Panel` then select `Hardware and Sounds`
 - Then open `Power Options` and select `Change what the power buttons do` 
 - Click `Change settings that are currently unavailable` 
 - Uncheck `Turn on fast startup (recommended)`
