@@ -110,3 +110,4 @@ Her is the `Value Data Guide`
 |8GB     |1024   |
 |16GB    |2048   | 
 ##
+##
