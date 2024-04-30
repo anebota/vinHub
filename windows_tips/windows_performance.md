@@ -1,42 +1,62 @@
 ##
 ### Upgrade Windows Software 
 - Open `cmd` as `administrator` 
-- Type the following commands:
-```winget upgrade``` To list software available for upgrade
+- Type the following command to list software available for upgrade:
+```
+winget upgrade
+``` 
+- Type the following command to upgrade the software 
+```
+winget upgrade --all --include-unknown     
+```
+## 
+### Make your PC faster 
+- Open `Control Panel` then `System and Security` and `Security and Maintenance` 
+- Go to `Maintenance` and then `Start Maintenance`  
+- Wait till it completes the maintenance 
 
-To upgrade the software 
-               $ winget upgrade --all --include-unknown      
+## 
+### Make your PC Faster 
+- Press `Windows` + `R` 
+- Type 
+```
+sysdm.cpl
+```
+- Then hit `ENTER`
+- On the popup window, click `Advance` then `Settings` under `Performance` 
+- Select `Adjust for best performance` 
+- Select `Smooth Edges of Screen fonts` 
+- Click `Apply` then `Restart your PC` 
 
-Make your PC faster 
-Control Panel ⇒ System and Security ⇒ Security and Maintenance 
-Maintenance ⇒ Start Maintenance   
+##
+### Speedup your PC 
+- Press `Windows` + `R` 
+- Type: 
+```
+temp
+```
+- then type:
+```
+%temp% 
+```
+- Then type 
+```
+prefetch 
+```
+- Hold `Ctrl` + `A` to select all then `delete` 
+- This will delete all the proceeding files 
+- If it doesn't delete then press skip 
 
-Make your PC Faster 
-Press Windows + R 
-Type sysdm.cpl then hit ENTER
-On the popup window, click Advance then Settings under Performance 
-Select Adjust for best performance 
-Select Smooth Edges of Screen fonts 
-Click Apply then restart your PC 
-
-Speedup your PC 
-Press Windows + R 
-Type temp
-Type %temp% 
-Then type prefetch 
-Ctrl + A then delete 
-Delete all the proceeding files 
-If it doesn't delete then press skip 
-
-Maximise Processor Usage 
-Press Windows + R
-Type msconfig then hit ENTER
-Under System Configuration, select Boot
-Then click Advance Option 
-Check Number of Processors and choose the maximum 
-Do so with Maximum memory as well 
-Just click the Maximum memory checkbox  
- Click OK then restart your PC 
+##
+### Maximize Processor Usage: <br> 
+Press `Window`s + `R` <br>
+Type msconfig then hit `ENTER` <br>
+Under `System Configuration`, select `Boot` <br>
+Then click `Advance Option` <br>
+Check `Number of Processors` and choose the `maximum` <br>
+Do so with `Maximum memory` as well <br>
+Just click the `Maximum memory` checkbox  <br>
+Click `OK` then `restart` your PC <br>
 
 Diagnose and Troubleshoot PC Problems
 Run cmd as administrator 

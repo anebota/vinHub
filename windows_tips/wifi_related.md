@@ -4,9 +4,10 @@ Optimize Internet Connections: <br>
 Method 1:
 - Press `Windows` + `X` 
 - Select `Device manager` 
-- Open `Network adapters` right-click `Wireless Adapter` and select `Properties`
+- Open `Network adapters` 
+- Right-click on `Wireless Adapter` and select `Properties`
 - Select `Advance` 
-- Search the following under `Properties` and change their correspondent `Values` highest.
+- Search the following under `Advance` and change their correspondent `Values` highest.
   -  Preferred Band: `Highest Band` 
   - Roaming Aggressiveness: `Highest` 
   - Speed & Duplex: `Highest`
