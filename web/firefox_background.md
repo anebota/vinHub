@@ -17,7 +17,7 @@ userContent.css
 ##
 Move your desired `image` into the `img directory`.
 ##
-Open userContent.css with a text editor and paste the following code, replacing your-image.jpg with the name of your image file:
+Open userContent.css with a text editor and paste the following code, replacing `your-image.jpg` with the name of your image file:
 ```
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
   body::before {
@@ -26,7 +26,7 @@ Open userContent.css with a text editor and paste the following code, replacing 
     position: fixed;
     top: 0;
     left: 0;
-    background: no-repeat url(img/your-image.jpg) center;
+    background: no-repeat url(img/`your-image.jpg`) center;
     background-size: cover;
     width: 100vw;
     height: 100vh;

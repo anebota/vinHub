@@ -3,6 +3,7 @@ GitHub:
 - Create your repository and give it a unique name 
 - Do not add a READMe file (This will be added in git) <br>
 
+
 Pushing to a new Repository: <br>
 (By create a new repository on the command line)
 Intitialize Local Repo:
@@ -30,6 +31,8 @@ Push your code to gitHub:
 git push -u origin main
 ```
 ##
+
+
 Pushing an existing repository from the command line:  
 Create an aliasName:
 ```
@@ -45,6 +48,7 @@ git push -u origin main
 ```
 ##
 
+
 Git | Local Repository:
 Create your repository Directory and cd to it:  
 ```
@@ -55,6 +59,8 @@ Initialized your Directory:
 git init 
 ```
 ##
+
+
 ### Git ENVIRONMENT: 
 Working Environment: <br> 
 To add all the files in the current working Directory: 
@@ -70,11 +76,15 @@ To add multiple files but not all in the current working directory:
 git add file1 file4 file15
 ``` 
 ##
+
+
 Staging Environment: 
 ```
 git commit -m "commit message"
 ```
 ##
+
+
 Production Environment: <br> 
 AliasName <br> 
 To create your AliasName:  
@@ -90,6 +100,7 @@ To delete aliasName:
 git remote remove aliasName
 ```
 ##
+
 
 Branching: <br>
 To create a branch:  
@@ -114,6 +125,8 @@ git merge branchName
 ``` 
 If merge fails: (do manual merging by opening the file and fit the codes)
 ## 
+
+
 Tags: <br>
 After doing your commit, create a tag: <br>
 (git tag -a tagName -m "tag message")
@@ -129,6 +142,7 @@ Push tags to a specific branch:
 git push origin v1.0:bugfix
 ``` 
 ##
+
 
 Other Commands in Production Environment: <br>
 To push to remote repository without tagging:
