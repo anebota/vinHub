@@ -1,3 +1,18 @@
+### Generate Password:
+Become root:
+```
+sudo -i
+```
+
+
+Create the Script: 
+```
+nano passwd_generator.sh
+```
+##
+
+
+```
 #!/bin/bash
 # This is a script to generate a random password
 # Ask for the password length
@@ -17,3 +32,18 @@ done
 
 # Display the generated password
 echo "Your password is: $password"
+```
+##
+
+
+Make the script executable: 
+```
+chmod +x passwd_generator.sh
+```
+
+
+Run the script:
+```
+./passwd_generator.sh
+```
+##

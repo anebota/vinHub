@@ -4,10 +4,15 @@ Become root:
 ```
 sudo -i
 ```
+
+
 Create the Script: 
 ```
 nano server_update.sh
 ```
+##
+
+
 ```
 #!/bin/bash
 # Make script non interactive 
@@ -29,10 +34,15 @@ snap install emacs --classic
 apt-get install jq -y
 
 ```
+##
+
+
 Make the script executable: 
 ```
 chmod +x server_update.sh
 ```
+
+
 Run the script:
 ```
 ./server_update.sh

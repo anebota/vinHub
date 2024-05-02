@@ -1,7 +1,11 @@
+##
 Create the file:
 ```
 apache2_php_webapp.sh
 ```
+##
+
+
 Copy and paste: 
 ```
 #!/bin/bash
@@ -45,3 +49,17 @@ alt="Mr Dramacydal">" | sudo tee -a /var/www/html/index.php > /dev/null
 
 # <img src="insert pic URL">" | sudo tee -a /var/www/html/index.php > /dev/null
 ```
+##
+
+
+Make the script executable: 
+```
+chmod +x apache2_php_webapp.sh
+```
+
+
+Run the script:
+```
+./apache2_php_webapp.sh
+```
+##

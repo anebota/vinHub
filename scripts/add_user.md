@@ -7,6 +7,9 @@ Create the Script:
 ```
 nano add_user.sh
 ```
+##
+
+
 ```
 #!/bin/bash
 # This is a script to create a user in Ubuntu
@@ -31,10 +34,15 @@ echo "$username ALL=(ALL) NOPASSWD:ALL" | sudo EDITOR='tee -a' visudo
 # Display a confirmation message
 echo "User $username created successfully."
 ```
+##
+
+
 Make the script executable: 
 ```
 chmod +x add_user.sh
 ```
+
+
 Run the script:
 ```
 ./add_user.sh
