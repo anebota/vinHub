@@ -13,10 +13,13 @@ Upgrade the server:
 apt upgrade -y 
 ```
 
+
 Install Java as pre-requisite: 
 ```
 apt install default-jdk -y 
 ```
+
+
 Create tomcat user: 
 ```
 adduser tomcat 
@@ -30,12 +33,15 @@ Switch to tomcat user:
 su - tomcat   
 ```
 ##
+
+
 Install tomcat: 
 ```
 sudo apt install tomcat9 -y 
 ``` 
 Get to the path to start tomcat: 
-```cd /etc/tomcat9  
+```
+cd /etc/tomcat9  
 ```
 Start tomcat:
 ``` 
@@ -47,12 +53,17 @@ sudo systemctl start tomcat9
 ```
 sudo systemctl status tomcat9
 ```
+##
+
+
 Test on server:
 Get the IP:
 ```  
 curl ifconfig.me
 ``` 
 Default Port:8080
+##
+
 
 Install Dependences:
 tomcat9-docs: 
@@ -69,6 +80,7 @@ sudo apt install tomcat9-admin -y
 ```
 ## 
 
+
 Set Your User Credentials: 
 Path to edith manager-gui/admin-gui:  
 ```
@@ -84,12 +96,16 @@ Paste the following, save and exit:
 ```
 ##
 
+
+
 Tomcat Deployment: <br>
 Copy build artifacts to tomcat webservers:
 ```
 sudo scp target/*war /var/lib/tomcat9/webapps
 ```
 ##
+
+
 Maven Installation: 
 ```
 sudo apt install maven -y 
