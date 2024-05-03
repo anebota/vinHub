@@ -97,6 +97,13 @@ Paste the following, save and exit:
 ##
 
 
+You can also paste the following if you want to use the `manager-script`:
+```
+<user username="tomcat" password="admin123" roles="manager-gui,admin-gui"/>     
+<user username="vin" password="admin123" roles="manager-gui,admin-gui,manager-script"/> 
+```
+##
+
 
 Tomcat Deployment: <br>
 Copy build artifacts to tomcat webservers:
