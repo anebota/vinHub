@@ -4,6 +4,13 @@ Click [Maven Download](https://maven.apache.org/download.cgi) to get the latest 
 ##
 
 
+Pre-requisite (Install Java):
+```
+apt install default-jre -y
+```
+##
+
+
 Download it to your ubuntu server:
 ```
 wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
@@ -14,6 +21,13 @@ wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bi
 Extract the downloaded tar.gz file to the desired location on your Ubuntu server (e.g., /opt):
 ```
 sudo tar xf apache-maven-3.9.6-bin.tar.gz -C /opt
+```
+##
+
+
+Remove (delete) the bin-tar-gz file:
+```
+rm -r apache-maven-3.9.6-bin.tar.gz
 ```
 ##
 
