@@ -50,7 +50,14 @@ sudo apt upgrade -y
 
 Install Java: SonarQube requires Java to run. You can install OpenJDK on your server:
 ```
-sudo apt install openjdk-11-jdk
+sudo apt install openjdk-11-jdk -y
+```
+##
+
+
+Install unzip:
+```
+sudo apt install unzip
 ```
 ##
 
@@ -64,7 +71,14 @@ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.5.1.90
 
 Extract the downloaded file to a desired location. For example, to extract it to /opt directory:
 ```
-sudo tar xzf sonarqube-<version>.zip -C /opt
+unzip sonarqube-10.5.1.90531.zip -d /opt
+```
+##
+
+
+Rename the extracted file:
+```
+mv /opt/sonarqube-10.5.1.90531 /opt/sonarqube
 ```
 ##
 
@@ -101,6 +115,11 @@ cd /opt/sonarqube/bin/linux-x86-64
 Start SonarQube using the script provided:
 ```
 ./sonar.sh start
+```
+
+Check sonarqube status:
+```
+./sonar.sh status
 ```
 ##
 
