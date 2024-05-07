@@ -34,48 +34,85 @@ docker exec -it containerName /bin/bash
 ```
 docker exec -it containerName bash
 ```
-
 ##
-### Sonarqube Jenkins: 
-To integrate SonarQube scanner into a Jenkins freestyle job, you can follow these steps:
-
-1. Install the SonarQube Scanner plugin:
-
-- Go to Jenkins dashboard.
-- Click on "Manage Jenkins" on the left sidebar.
-- Select "Manage Plugins" from the dropdown.
-- Navigate to the "Available" tab.
-- Search for "SonarQube Scanner" plugin.
-- Check the checkbox next to the plugin and click "Install without restart" button.
-
-2. Configure SonarQube server:
-
-- Go to Jenkins dashboard.
-- Click on "Manage Jenkins" on the left sidebar.
-- Select "Configure System" from the dropdown.
-- Scroll down to the "SonarQube" section.
-- Click on "Add SonarQube" button.
-- Enter a name and the SonarQube server URL.
-- Provide the necessary credentials or authentication token if required.
-- Save the configuration.
-
-3. Configure the SonarQube scanner in the Jenkins job:
-
-- Open the Jenkins job configuration.
-- Under the "Build" section, click on "Add build step" dropdown.
-- Select "Execute SonarQube Scanner" from the dropdown.
-- In the "Analysis properties" field, specify the required SonarQube properties. For example:
-    sonar.projectKey=my-project <br>
-    sonar.sources=src <br>
-    sonar.tests=test <br>
-    sonar.junit.reportPaths=reports/junit/**/*.xml <br> 
-- Save the job configuration.
 
 
-4. Trigger the Jenkins job:
-- Go to the Jenkins dashboard.
-- Select the desired Jenkins job.
-- Click on "Build Now" to trigger the job.
+### Install Sonarqube Standalone: 
+Update your Ubuntu server: Before you begin, make sure your server is up to date:
+```
+sudo apt update
+```
+```
+sudo apt upgrade -y
+```
+##
 
-Jenkins will now run the SonarQube scanner during the build process and provide analysis reports in the SonarQube server.
+
+Install Java: SonarQube requires Java to run. You can install OpenJDK on your server:
+```
+sudo apt install openjdk-11-jdk
+```
+##
+
+
+Download and Install SonarQube: <br>
+Go to the official [SonarQube website](https://www.sonarqube.org/downloads) and download the latest Community Edition of SonarQube:
+```
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.5.1.90531.zip
+```
+
+
+Extract the downloaded file to a desired location. For example, to extract it to /opt directory:
+```
+sudo tar xzf sonarqube-<version>.zip -C /opt
+```
+##
+
+
+Configure SonarQube: <br>
+Navigate to the SonarQube configuration directory:
+```
+cd /opt/sonarqube/conf
+```
+
+
+Edit the SonarQube configuration file sonar.properties using a text editor:
+```
+sudo nano sonar.properties
+```
+
+
+Update the following properties in the file:
+```
+sonar.jdbc.username=username
+sonar.jdbc.password=password
+sonar.jdbc.url=jdbc:postgresql://localhost/sonar
+```
+##
+
+
+Start SonarQube: <br>
+Navigate to the SonarQube bin directory:
+```
+cd /opt/sonarqube/bin/linux-x86-64
+```
+
+
+Start SonarQube using the script provided:
+```
+./sonar.sh start
+```
+##
+
+
+Default username:
+```
+admin
+```
+
+
+Default passwd:
+```
+admin
+```
 ##

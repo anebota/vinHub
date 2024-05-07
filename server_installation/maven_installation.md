@@ -11,7 +11,7 @@ apt install default-jre -y
 ##
 
 
-Download it to your ubuntu server:
+Download maven to your ubuntu server:
 ```
 wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
 ```
